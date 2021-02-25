@@ -1,0 +1,22 @@
+{
+  "name": "data-randomizer",
+  "version": "1.0.0",
+  "description": "takes in a mySQL table and returns another with a random sampling of the first",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freejonm/data-randomizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freejonm/data-randomizer/issues"
+  },
+  "homepage": "https://github.com/freejonm/data-randomizer#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
