@@ -51,28 +51,27 @@ const randomize = () => {
 
     console.log(numbers);
 
-    
-    // connection.query('SELECT * FROM initial_data WHERE ?',
-    // {
-    //     id: 
-    // }, 
-    // (err, res) => {
-    //     if (err) throw err;
+   
+    connection.query('SELECT * FROM initial_data WHERE ?',
+        {
+        id: numbers[0]
+        }, 
+        (err, res) => {
+        if (err) throw err;
         
-    //     console.table(res);
-    //     connection.end();
-    // })
+        console.table(res);
+        connection.end();
+    })
+
 }
 
 
 
-randomize();
 
-
-// // Connect to the DB
-// connection.connect((err) => {
-//     if (err) throw err;
-//     console.log(`connected as id ${connection.threadId}\n`);
-//     // readData();
-//     randomize();
-//   });
+// Connect to the DB
+connection.connect((err) => {
+    if (err) throw err;
+    console.log(`connected as id ${connection.threadId}\n`);
+    // readData();
+    randomize();
+  });
