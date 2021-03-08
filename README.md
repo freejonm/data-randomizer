@@ -29,11 +29,6 @@ node script.js
 ## Contributing
 Do you really want to contribute to this project? Hey, that's cool, I guess. Send me an email at the address below and we'll discuss what you'd like to do. Adding browser-based UI is a natural next step . . . just sayin. 
 
-## Tests
-To test, run the following command:  
-```
-no testing
-```
 
   ## License  
   This application is covered under the **MIT** license. More info can be found here: [MIT](https://opensource.org/licenses/MIT)
